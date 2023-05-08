@@ -1,0 +1,15 @@
+a=set()
+b=set()
+n=int(input())
+m=int(input())
+for i in range(n):
+    c=int(input())
+    a.add(c)
+print(a)
+for i in range(m):
+    c=int(input())
+    b.add(c)
+print(b)
+i=a.intersection(b)
+# i=a.union(b)
+print(sorted(i))
